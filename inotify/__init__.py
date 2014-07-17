@@ -11,6 +11,8 @@
 # modified under the terms of any version of the GNU Lesser General Public
 # License greater than 2.1.
 
+from __future__ import absolute_import
+
 '''
 Low-level interface to the Linux inotify subsystem.
 
@@ -23,6 +25,7 @@ associated constants and helper functions.
 For a higher-level interface that remains highly efficient, use the
 inotify.watcher package.
 '''
+
 
 __author__ = "Jan Kanis <jan.code@jankanis.nl>"
 
